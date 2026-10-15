@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F3F7F4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="28dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PAN, PUNTOS Y PREMIOS"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textColor="#174C3C"
+            android:gravity="center"
+            android:layout_marginTop="45dp"
+            android:layout_marginBottom="18dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="¡Bienvenido!"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#222222"
+            android:gravity="center"
+            android:layout_marginBottom="12dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingresa tu número de teléfono para consultar tus puntos y recompensas."
+            android:textSize="16sp"
+            android:textColor="#666666"
+            android:gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <EditText
+            android:id="@+id/txtTelefono"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:hint="Número de teléfono"
+            android:inputType="phone"
+            android:maxLength="8"
+            android:padding="15dp"
+            android:backgroundTint="#174C3C"/>
+
+        <Button
+            android:id="@+id/btnConsultar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="CONSULTAR MIS PUNTOS"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#174C3C"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/lblResultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="17sp"
+            android:textColor="#174C3C"
+            android:gravity="start"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
